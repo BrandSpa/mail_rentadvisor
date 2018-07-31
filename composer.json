@@ -1,0 +1,12 @@
+{
+    "name": "michael/loyalty_mailing",
+    "require": {
+        "vernes/yiimailer": "^4.0"
+    },
+    "authors": [
+        {
+            "name": "Michael Sanchez",
+            "email": "michaelsanchez@brandspa.com"
+        }
+    ]
+}
