@@ -12,9 +12,9 @@ $message = file_get_contents('templates/mail.html');
 $mail = new Mail();
 
 foreach ( $companies as $company ){
-    
+
     $altMessage = $message;
     $altMessage = str_replace('{{points}}', $company['points']?:0, $altMessage);
     $mail->send($company['email'], "Reporte puntos gana", $altMessage);
-
+    
 }
